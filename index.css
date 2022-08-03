@@ -1,0 +1,54 @@
+.navbar-light .navbar-nav .nav-link{
+	font-family: "Avenir", Sans-serif !important;
+	color: #f2761a;
+	font-weight: 200;
+	font-size: 1.2rem;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+	color: #f2761a;
+}
+
+.navbar.scrolled, .navbar.navbar-toggled-show{
+	background-color: #FCECE5;
+}
+
+.bg-secondary{
+	width: 29%;
+	margin: auto !important;
+}
+
+.badge-success{
+	background-color: #F2761A;
+}
+
+
+@media (max-width: 767px){
+	
+	.navbar-light .navbar-nav .nav-link{
+	color: #161C2D;
+}
+	
+.bg-secondary{
+	width: 93%;
+	margin-bottom: 2% !important;
+}
+	
+}
+
+
+
+/* Logo */
+
+.navbar-brand img{
+max-height: 45px;
+}
+
+
+@media (max-width: 767px){
+	
+	.navbar-brand img{
+	max-height: 35px;
+}
+	
+}
